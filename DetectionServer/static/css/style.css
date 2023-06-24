@@ -1,0 +1,68 @@
+:root {
+    --offcanvas--width:270px;
+    --topNavbarHeight: 56px;
+}
+
+
+.sidebar-nav {
+    width:var(--offcanvas--width) !important;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-link .right-icon{
+    display: inline-flex;
+    transition: all ease 0.25s;
+}
+.sidebar-link[aria-expanded="true"] .right-icon{
+    transform: rotate(180deg);
+}
+main {
+    margin-left: var(--offcanvas--width);
+}
+.custom-icon {
+    width: 270px;
+    height: 50px;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+.dashboard-text {
+    font-size: 35px;
+    margin: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.red {
+    background-color: rgb(235, 122, 122);
+}
+
+.green {
+    background-color: rgb(165, 247, 165);
+}
+td p {
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+td  {
+    font-weight: bold;
+}
+
+@media (min-width: 992px){
+    body{
+        overflow: auto !important;
+    }
+    .offcanvas-backdrop::before {
+        display: none ;
+    }
+    .sidebar-nav {
+        transform: none !important;
+        visibility: visible !important;
+        top:var(--topNavbarHeight) !important;
+        height: calc(100% - var(--topNavbarHeight))!important;
+    }
+}
