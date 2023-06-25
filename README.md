@@ -33,11 +33,9 @@ An additional Raspberry Pi card was dedicated to capturing and filtering the flo
 The main PC was responsible for receiving the domain names from the Filtering server,conducting classification, and displaying the results through a web interface.
 Finally, the router, (another PC) served as the gateway for the DNS packets .
 
-![Inkedwhole](https://github.com/1b71h3l/2CS-Project/assets/74022204/c51109c3-8914-4843-9dab-b614acb2c2a5)
+![Inkedwhole](https://github.com/1b71h3l/2CS-Project/blob/main/Inkedwhole.jpg)
 
 After the classification of the domain names using the AI model,In the event of the presence of a botnet, 
 the administrator will be informed and a list of all the domain names that have appeared in a dns request will be displayed with their calssification and source IP.
 
-<img width="443" alt="Capture d'écran 2023-06-25 201438" src="https://github.com/1b71h3l/2CS-Project/assets/74022204/a7398701-6374-4167-9e35-17018f3a974c">
-
-<img width="445" alt="Capture d'écran 2023-06-25 201557" src="https://github.com/1b71h3l/2CS-Project/assets/74022204/a369b7de-9836-45ad-940e-826578cf3259">
+<img width="443" alt="Capture d'écran 2023-06-25 201438" src="https://github.com/1b71h3l/2CS-Project/blob/main/Capture%20d'%C3%A9cran%202023-06-25%20201438.png">    <img width="445" alt="Capture d'écran 2023-06-25 201557" src="https://github.com/1b71h3l/2CS-Project/blob/main/Capture%20d'%C3%A9cran%202023-06-25%20201557.png">
